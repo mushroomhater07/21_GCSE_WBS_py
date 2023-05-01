@@ -1,0 +1,11 @@
+// Pseudocode
+// Declare a static array called cars with a length of 5 items
+// Ask use to input the make of 5 types of car
+// Print out the array
+
+array cars[5]
+FOR index 0 to 4
+	cars[index] = input("Please enter the make of a car ")
+NEXT index
+
+print(cars)

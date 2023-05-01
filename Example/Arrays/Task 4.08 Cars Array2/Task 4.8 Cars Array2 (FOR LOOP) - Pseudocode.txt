@@ -1,0 +1,8 @@
+//Pseudocode
+//Create an algorithm using a loop to print out all the items of an array one at a time
+
+array cars['Ford', 'BMW', 'Renault', 'Jaguar', 'Peugeot', 'Vauxhall', 'Nissan']
+
+FOR item 0 to cars.length-1
+	print(cars[item])
+NEXT item

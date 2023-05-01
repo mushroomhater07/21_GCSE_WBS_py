@@ -1,0 +1,20 @@
+// Pseudocode
+//Find the mean and minimum in a list of values
+
+array marks[34,56,45,78,56,43,49,66,29,48,52,67]
+
+total = 0
+min = 100
+
+FOR index 0 to marks.length-1
+	total = total + marks[index]
+	IF marks[index] < min THEN
+		min = marks[index]
+	END IF
+NEXT index
+
+mean = total/marks.length-1
+
+print("mean = " + str(mean))
+print("minimum = " + str(min))
+	

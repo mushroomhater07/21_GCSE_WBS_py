@@ -1,0 +1,8 @@
+#Create an algorithm using a loop to print out all the items of an array one at a time
+
+cars = ['Ford', 'BMW', 'Renault', 'Jaguar', 'Peugeot', 'Vauxhall', 'Nissan']
+
+index = 0
+while index < len(cars):
+  print(cars[index])
+  index = index + 1
